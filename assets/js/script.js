@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, 300);
     });
 
-    $('.header__callback-button, .header__feedback-button').on('click', function () {
+    $('.header__callback-button, .header__feedback-button, .contacts__button').on('click', function () {
         $('.callback, .callback-bg').fadeIn();
         return false;
     });

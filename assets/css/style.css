@@ -15,6 +15,7 @@ h2 {
     font-weight: bold;
     font-size: 30px;
     color: #151723;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -271,7 +272,6 @@ a.header__callback-button {
     z-index: 2;
     background: #000;
     opacity: 0.7;
-    cursor: pointer;
     display: none;
 }
 
@@ -403,6 +403,7 @@ a.header__callback-button {
     font-weight: bold;
     font-size: 48px;
     max-width: 750px;
+    letter-spacing: 1px;
 }
 
 .slider__text {
@@ -724,17 +725,95 @@ a.header__callback-button {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    color: #151723;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .contacts__info-inner {
     width: 570px;
 }
 
+.contacts__title {
+    padding-top: 60px;
+    padding-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+.contacts__text {
+    margin-top: 20px;
+}
+
+.contacts__info span {
+    font-weight: 300;
+    display: block;
+}
+
+.contacts__button {
+    width: 200px;
+    height: 52px;
+    border: none;
+    background: #27acea;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
 .contacts__map {
     width: 50%;
 }
 
-.contacts__title {
-    padding-top: 60px;
-    padding-bottom: 30px;
+/********* News page *********/
+
+.news-page h2 {
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.news-page__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-page__item {
+    max-width: 263px;
+    font-size: 15px;
+    line-height: 24px;
+    height: 485px;
+}
+
+.news-page__img {
+    line-height: 0;
+}
+
+.news-page__date {
+    color: #898e91;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-page__text {
+    font-weight: 300;
+    height: 120px;
+}
+
+.news-page__link {
+    text-decoration: none;
+    color: #00ccda;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.news-page__link:hover {
+    text-decoration: underline;
 }
