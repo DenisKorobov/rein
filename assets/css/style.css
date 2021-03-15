@@ -1109,3 +1109,164 @@ a.header__callback-button {
 .directions__item:nth-child(6) .directions__detailed {
     background: #000000;
 }
+
+/********* Rein Light page *********/
+
+.light {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.banner {
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gilroy', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.light .banner {
+    background: url(../img/light.png) center bottom no-repeat;
+}
+
+.banner__title {
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.banner__logo {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    line-height: 0;
+}
+
+.banner__link {
+    width: 200px;
+    height: 48px;
+    border: 2px solid #27abe9;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+}
+
+.banner__link img {
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.light__text {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.light__title {
+    margin-bottom: 60px;
+}
+
+.light__container {
+    width: 1510px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.light__img {
+    line-height: 0;
+}
+
+.light__info {
+    width: 835px;
+    position: relative;
+}
+
+.light__info::before {
+    content: "";
+    width: 77px;
+    height: 3px;
+    background: #00a0e3;
+    top: 45px;
+    left: 0;
+    position: absolute;
+}
+
+.light__info-title {
+    color: #000;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.light__info-text {
+    max-width: 650px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.light__info-text p {
+    margin-bottom: 25px;
+}
+
+.light__info-text b {
+    font-weight: 600;
+}
+
+.light__info2 {
+    padding-left: 185px;
+}
+
+.light__info2::before {
+    left: 185px;
+}
+
+.light__conditions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.light__conditions-item {
+    height: 355px;
+    width: 33.33%;
+    padding: 85px 50px 0;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.light__conditions-item:nth-child(1) {
+    background: #5ec3ed;
+}
+
+.light__conditions-item:nth-child(2) {
+    background: #91d6f3;
+}
+
+.light__conditions-img {
+    line-height: 0;
+}
+
+.light__conditions-title {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+/********* Rein Led page *********/
+
+.led .banner {
+    background: url(../img/led/banner.png) center bottom no-repeat;
+}
+
+.led .banner__link {
+    background: #27abe9;
+}
