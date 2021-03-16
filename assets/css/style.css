@@ -1250,6 +1250,10 @@ a.header__callback-button {
     background: #91d6f3;
 }
 
+.light__conditions-item:nth-child(3) {
+    background: #f9f9f7;
+}
+
 .light__conditions-img {
     line-height: 0;
 }
@@ -1269,4 +1273,189 @@ a.header__callback-button {
 
 .led .banner__link {
     background: #27abe9;
+}
+
+.led__text {
+    margin: 50px auto;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.led__partners {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 120px;
+}
+
+.led__partner {
+    box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 10%);
+}
+
+.led__partner-logo {
+    line-height: 0;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.led__partner-sertificate {
+    line-height: 0;
+}
+
+.led__types {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.led__type {
+    width: 360px;
+    height: 250px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.led__type:nth-child(1) {
+    background: url(../img/led/type_1.png) center center no-repeat;
+}
+
+.led__type:nth-child(2) {
+    background: url(../img/led/type_2.png) center center no-repeat;
+}
+
+.led__type:nth-child(3) {
+    background: url(../img/led/type_3.png) center center no-repeat;
+}
+
+.led__type:nth-child(4) {
+    background: url(../img/led/type_4.png) center center no-repeat;
+}
+
+.led__type:nth-child(5) {
+    background: url(../img/led/type_5.png) center center no-repeat;
+}
+
+.led__type:nth-child(6) {
+    background: url(../img/led/type_6.png) center center no-repeat;
+}
+
+.led__type:nth-child(7) {
+    background: url(../img/led/type_7.png) center center no-repeat;
+}
+
+.led__type:nth-child(8) {
+    background: url(../img/led/type_8.png) center center no-repeat;
+}
+
+.led__type:nth-child(9) {
+    background: url(../img/led/type_9.png) center center no-repeat;
+}
+
+.led__type-title {
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+}
+
+.led__type-title::before {
+    content: "";
+    width: 77px;
+    height: 3px;
+    background: #f9b207;
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
+.led__structure-wrapper {
+    background: #f6f6f6;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+.led__structure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.led__structure-info {
+    margin-top: 20px;
+}
+
+.led__structure-text {
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 620px;
+    padding-bottom: 30px;
+}
+
+.led__conditions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.led__conditions-item {
+    height: 355px;
+    width: 33.33%;
+    padding: 85px 40px 0;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.led__conditions-item:nth-child(1) {
+    background: #f9b207;
+}
+
+.led__conditions-item:nth-child(2) {
+    background: #fcde94;
+}
+
+.led__conditions-item:nth-child(3) {
+    background: #f9f9f7;
+}
+
+.led__conditions-img {
+    line-height: 0;
+}
+
+.led__conditions-title {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+/********* Rein Prom page *********/
+
+.prom .banner {
+    background: url(../img/prom/banner.png) center bottom no-repeat;
+}
+
+.prom .banner__link {
+    background: #27abe9;
+}
+
+.prom__text {
+    margin: 60px auto 50px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
 }
