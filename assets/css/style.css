@@ -1840,3 +1840,8 @@ a.header__callback-button {
     font-size: 15px;
     font-weight: 300;
 }
+
+.description {
+    height: 165px;
+    background: #f6f6f6;
+}
