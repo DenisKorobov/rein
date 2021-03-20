@@ -2097,3 +2097,101 @@ a.header__callback-button {
     margin: 20px 0;
     letter-spacing: 1px;
 }
+
+/********* Rein Snab page *********/
+
+.snab .banner {
+    background: url(../img/snab/banner.png) center bottom no-repeat;
+}
+
+.snab .banner__link {
+    background: #27abe9;
+}
+
+.snab__text {
+    margin: 60px auto 50px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.snab .description {
+    margin-bottom: 40px;
+}
+
+.snab .description::before {
+    background: #e31e24;
+}
+
+.snab .description .description__text b {
+    color: #e31e24;
+}
+
+.snab__text-2 {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.snab__shipment {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.snab__shipment-item {
+    height: 420px;
+    width: 228px;
+}
+
+.snab__shipment-img {
+    height: 225px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.snab__shipment-item:nth-child(5n+2) .snab__shipment-img, .snab__shipment-item:nth-child(5n+4) .snab__shipment-img {
+    background: #fbfbfb;
+}
+
+.snab__shipment-img::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 77px;
+    height: 3px;
+    background: #e31e24;
+}
+
+.snab__shipment-name {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+.snab__involvement {
+    background: #f6f6f6;
+    margin-top: 70px;
+}
+
+.snab__involvement .container {
+    display: flex;
+    align-items: center;
+}
+
+.snab__involvement b {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #151723;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 25px;
+}
