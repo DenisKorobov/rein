@@ -2195,3 +2195,88 @@ a.header__callback-button {
     display: block;
     margin-bottom: 25px;
 }
+
+/********* Rein Electro page *********/
+
+.electro .banner {
+    background: url(../img/electro/banner.png) center bottom no-repeat;
+    margin-bottom: 45px;
+}
+
+.electro .banner__link {
+    background: #27abe9;
+}
+
+.electro__text {
+    margin: 25px auto 45px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.electro__shipment {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.electro__shipment-item {
+    height: 405px;
+    width: 25%;
+    background: #f6f6f6;
+}
+
+.electro__shipment-img {
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.electro__shipment-item:nth-child(2n) {
+    background: #f9f9f9;
+}
+
+.electro__shipment-img::before {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 35px;
+    width: 77px;
+    height: 3px;
+    background: #ef7f1a;
+}
+
+.electro__shipment-name {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.electro__partners {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.electro__partner-logo {
+    line-height: 0;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.electro__partner-sertificate {
+    line-height: 0;
+    box-shadow: 0px 10px 15px 0px rgb(0 0 0 / 10%);
+}
+
+.electro__text-2 {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
