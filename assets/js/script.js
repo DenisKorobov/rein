@@ -2,7 +2,8 @@ $(document).ready(function () {
 
     $('.slider__container').bxSlider({
         pagerCustom: '.slider__pager',
-        controls: false
+        controls: false,
+        touchEnabled: false
     });
 
     $('.footer__arrow').on('click', function () {

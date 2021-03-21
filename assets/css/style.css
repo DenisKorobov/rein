@@ -2280,3 +2280,88 @@ a.header__callback-button {
     margin-top: 30px;
     margin-bottom: 55px;
 }
+
+.electro__title {
+    margin-top: 55px;
+}
+
+.electro__tasks {
+    margin-bottom: 60px;
+}
+
+.electro__tasks-item {
+    display: flex;
+    background: #fbfbfb;
+}
+
+.electro__tasks-item:nth-child(2n) {
+    background: #f6f6f6;
+}
+
+.electro__tasks-img {
+    max-width: 388px;
+    max-height: 225px;
+    overflow: hidden;
+}
+
+.electro__tasks-description {
+    max-width: 752px;
+    padding-left: 45px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.electro__tasks-title {
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #151723;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.electro__tasks-text {
+    padding-right: 60px;
+}
+
+.electro__conditions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.electro__conditions-item {
+    height: 355px;
+    width: 33.33%;
+    padding: 85px 40px 0;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.electro__conditions-item:nth-child(1) {
+    background: #ef7f1a;
+}
+
+.electro__conditions-item:nth-child(2) {
+    background: #f8c89c;
+}
+
+.electro__conditions-item:nth-child(3) {
+    background: #f9f9f7;
+}
+
+.electro__conditions-img {
+    line-height: 0;
+}
+
+.electro__conditions-title {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
