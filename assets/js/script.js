@@ -3,7 +3,8 @@ $(document).ready(function () {
     $('.slider__container').bxSlider({
         pagerCustom: '.slider__pager',
         controls: false,
-        touchEnabled: false
+        touchEnabled: false,
+        auto: true
     });
 
     $('.footer__arrow').on('click', function () {
