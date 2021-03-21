@@ -2365,3 +2365,99 @@ a.header__callback-button {
     margin: 20px 0;
     letter-spacing: 1px;
 }
+
+/********* Mobile menu *********/
+
+#moblie-nav {
+    display: none;
+}
+
+.hc-nav-trigger span, .hc-nav-trigger span::before, .hc-nav-trigger span::after {
+    background: #27acea;
+}
+
+.hc-nav-trigger {
+    top: 30px;
+}
+
+
+
+@media (max-width: 1169px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .header__left {
+        width: 20%;
+    }
+
+    .header__logo img {
+        width: 100%;
+    }
+
+    .header__right {
+        width: 80%;
+    }
+
+    .footer__arrow {
+        right: 15px;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .header__menu {
+        width: 100%;
+    }
+
+    .footer__menu {
+        padding: 0 100px;
+    }
+
+}
+
+@media (max-width: 849px) {
+
+    .footer__bottom-col {
+        width: 33.33%;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width: 699px) {
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__left {
+        display: none;
+    }
+
+    .header__links {
+        display: none;
+    }
+
+    .header__right {
+        width: 100%;
+    }
+
+    .header__top {
+        justify-content: center;
+    }
+
+    .header__top > div {
+        margin: 0 15px;
+    }
+
+    .header__top {
+        border-bottom: none;
+    }
+
+}

@@ -28,4 +28,8 @@ $(document).ready(function () {
         $(this).find('.header__menu-list').stop().slideUp(200);
     });
 
+    $('#moblie-nav').hcOffcanvasNav({
+        maxWidth: 700
+    });
+
 });
