@@ -2382,6 +2382,18 @@ a.header__callback-button {
 
 
 
+@media (max-width: 1539px) {
+
+    .slider__pager {
+        width: 100%;
+    }
+
+    .slider__pager-name {
+        font-size: 20px;
+    }
+
+}
+
 @media (max-width: 1169px) {
 
     .container {
@@ -2418,6 +2430,64 @@ a.header__callback-button {
         padding: 0 100px;
     }
 
+    .portfolio__list {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 40px auto 0;
+    }
+
+    .news {
+        padding-top: 80px;
+        padding-bottom: 95px;
+    }
+
+    .news__link {
+        right: 15px;
+    }
+
+    .slider__item .container::before {
+        left: 15px;
+    }
+
+    .strategy__list {
+        padding-right: 60px;
+    }
+
+    .strategy__list::before {
+        display: none;
+    }
+
+    .about__cell {
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 999px) {
+
+    .contacts-block {
+        font-size: 16px;
+    }
+
+    .slider__pager {
+        flex-wrap: wrap;
+    }
+
+    .slider__pager li {
+        width: 33.33%;
+    }
+
+    .strategy__list {
+        padding-right: 0;
+        width: 50%;
+    }
+
+    .about__cell:first-child {
+        width: 50%;
+    }
+
 }
 
 @media (max-width: 849px) {
@@ -2426,6 +2496,46 @@ a.header__callback-button {
         width: 33.33%;
         padding-right: 30px;
         box-sizing: border-box;
+    }
+
+    .slider__title {
+        font-size: 30px;
+    }
+
+    .slider__text {
+        font-size: 16px;
+    }
+
+    .slider__item {
+        padding-top: 130px;
+    }
+
+    .contacts-block {
+        display: none;
+    }
+
+    .strategy__item {
+        margin-bottom: 20px;
+    }
+
+    .strategy__description > h2 {
+        width: 50%;
+    }
+
+    .strategy__list {
+        padding-top: 30px;
+    }
+
+    .specialization-text {
+        padding-right: 30px;
+    }
+
+    .news-page__list {
+        justify-content: center;
+    }
+
+    .news-page__item {
+        margin: 0 15px;
     }
 
 }
@@ -2458,6 +2568,137 @@ a.header__callback-button {
 
     .header__top {
         border-bottom: none;
+    }
+
+    .footer__menu {
+        flex-wrap: wrap;
+        height: initial;
+        padding: 20px 0;
+    }
+
+    .footer__menu-link {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .footer__arrow {
+        top: 110px;
+    }
+
+    .footer__bottom {
+        flex-wrap: wrap;
+        height: initial;
+        padding: 20px 0;
+    }
+
+    .footer__bottom-col {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .about__specialization-img {
+        display: none;
+    }
+
+    .specialization-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .strategy__img {
+        display: none;
+    }
+
+    .strategy__list {
+        width: 100%;
+    }
+
+    .strategy {
+        height: initial;
+        overflow: initial;
+    }
+
+    .strategy__description {
+        height: initial;
+    }
+
+    .strategy__description > h2 {
+        width: 100%;
+    }
+
+    .about__cell {
+        height: 70px;
+    }
+
+}
+
+@media (max-width: 499px) {
+
+    .slider__pager li {
+        width: 50%;
+    }
+
+    .news__item-img {
+        display: none;
+    }
+
+    .news__link {
+        top: 30px;
+        left: 15px;
+    }
+
+    .news {
+        padding-bottom: 0;
+    }
+
+    .header__callback a {
+        text-align: center;
+    }
+
+    .about__table {
+        font-size: 13px;
+    }
+
+    .news-page__navigation {
+        font-size: 13px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 399px) {
+
+    .header__feedback {
+        display: none;
+    }
+
+    .slider__item {
+        padding-top: 50px;
+    }
+
+    .about__history-year {
+        width: 100px;
+    }
+
+    .about__history-text {
+        padding: 30px 25px 30px 125px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .specialization-text {
+        padding-left: 25px;
+    }
+
+    .about__table {
+        font-size: 10px;
     }
 
 }
